@@ -5,6 +5,8 @@ def speak_to_grandma(phrase)
       return "NO, NOT SINCE 1938!"
   elseif phrase == phrase.capitalize
       return "NO, NOT SINCE 1938!"
+    elseif phrase == phrase.swapcase
+      return "NO, NOT SINCE 1938!"
   elseif phrase == phrase.downcase
     return "HUH?! SPEAK UP, SONNY!"
 end
